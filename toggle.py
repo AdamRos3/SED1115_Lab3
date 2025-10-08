@@ -4,6 +4,7 @@ import time
 # Define the inputs and outputs and assign them to software objects
 # First argument is a GPIO pin number, rather than a physical pin number
 led1 = Pin(18, Pin.OUT)
+led1.off()
 
 sw5 = Pin(22, Pin.IN, Pin.PULL_DOWN)
 
